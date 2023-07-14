@@ -1,0 +1,14 @@
+
+.article {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+  }
+  
+.title {
+    margin-right: 5rem;
+  }
+  
+.details {
+    width: 10%;
+  }
