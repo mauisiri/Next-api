@@ -1,14 +1,4 @@
 import styles from '../../styles/Planets.module.css'
-/* import { ListOfPlanets } from "./ListOfPlanets"
-
-export default async function PlanetsPage({ params }) {
-  return (
-    <section>
-    <ListOfPlanets />
-    </section>
-  )
-}
- */
 
 const fetchPlanets = () => {
   return fetch('https://swapi.dev/api/planets')
@@ -21,7 +11,10 @@ export default async function PlanetsPage({ params }) {
     <section>
       {planets.results.map(results => (
         <article key={results.id} className={styles.article}>
-          <h2 className={styles.title}>{results.name}</h2>
+          <h2 className={styles.title}>
+            <link href='/planets/[id]' as={`/planets/${results.id}`}></link>
+            {results.name}
+            </h2>
           <div className={styles.details}>
             <p> Rotation period: {results.rotation_period}</p>
             <p> Diameter: {results.diameter}</p>

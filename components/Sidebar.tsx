@@ -6,6 +6,21 @@ const links = [{
 }, {
     label: 'Planets',
     route: '/planets'
+},{
+    label: 'Spaceships',
+    route: '/spaceships'
+},{
+    label: 'Vehicles',
+    route: '/vehicles'
+},{
+    label: 'People',
+    route: '/people'
+},{
+    label: 'Films',
+    route: '/films'
+},{
+    label: 'Species',
+    route: '/species'
 }]
 
 export function Sidebar () {
