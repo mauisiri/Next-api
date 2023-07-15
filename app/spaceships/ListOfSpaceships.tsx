@@ -7,10 +7,10 @@ const fetchSpaceships = () => {
     const spaceships = await fetchSpaceships()
 
     return spaceships.results.slice(0,5).map(results => (
-          <article key={results.id}>
+          <article key={spaceships.results.id}>
             <Link href={`/spaceships/${results.id}`}>
             <h2>
-              <link href='/spaceships/[id]' as={`/spaceship/${results.id}`}></link>
+              <link href='/spaceships/[id]' as={`/spaceships/${results.id}`}></link>
               {results.name}
               </h2>
             <div>

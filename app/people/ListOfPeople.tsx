@@ -7,10 +7,10 @@ const fetchPeople = () => {
     const people = await fetchPeople()
 
     return people.results.slice(0,5).map(results => (
-          <article key={results.id}>
-            <Link href={`/people/${results.id}`}>
+          <article key={people.results.id}>
+            <Link href={`/people/${people.results.id}`}>
             <h2>
-              <link href='/planets/[id]' as={`/people/${results.id}`}></link>
+              <link href='/people/[id]' as={`/people/${results.id}`}></link>
               {results.name}
               </h2>
             <div>
