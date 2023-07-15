@@ -9,7 +9,7 @@ export default async function PlanetsPage({ params }) {
 
   return (
     <section>
-      {planets.results.map(results => (
+      {planets.results.slice(0,5).map(results => (
         <article key={results.id} className={styles.article}>
           <h2 className={styles.title}>
             <link href='/planets/[id]' as={`/planets/${results.id}`}></link>
