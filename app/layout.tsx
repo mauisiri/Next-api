@@ -10,7 +10,9 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <Sidebar />
+        <div  className="content">
         {children} 
+        </div>
       </body>
     </html>
   )

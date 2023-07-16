@@ -25,7 +25,7 @@ export default async function PlanetsPage({ params }) {
             <p> Surface water: {results.surface_water}</p>
             <p> Population: {results.population}</p>
           </div>
-          <div className={styles.details}>
+          {/* <div className={styles.details}>
             <p> Residents:</p>
             <p> {results.residents}</p>
             <p> Films:</p>
@@ -35,7 +35,7 @@ export default async function PlanetsPage({ params }) {
             <p> Edited: </p>
             <p> {results.edited}</p>
             <p> Url: {results.url}</p>
-          </div>
+          </div> */}
         </article>
       ))}
     </section>

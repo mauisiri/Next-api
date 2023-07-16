@@ -4,7 +4,10 @@
 
   --main-font: rgb(255, 255, 255);
   --secondary-font: rgb(207, 207, 207);
-  --background: rgb(25, 24, 24);  
+  --highlight: #dfd107;
+  --dark-font: black;
+  --background: rgb(25, 24, 24);
+
 }
 
 html,
@@ -21,6 +24,11 @@ body {
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
+  width: 100vw;
+}
+
+.content {
+  display: flex;
 }
 
 a{
@@ -32,8 +40,3 @@ a{
   box-sizing: border-box;
 }
 
-section {
-  display: flex;
-  justify-content: flex-start;
-  width: 80%;
-}
