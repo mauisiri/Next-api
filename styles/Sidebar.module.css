@@ -1,33 +1,42 @@
 .header {
   margin-right: 30px;
-  width: 13rem;
-  height: 150%;
   background: rgb(0, 0, 0);
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8981967787114846) 0%, rgba(255, 255, 255, 0.10547969187675066) 100%);
-  position:absolute;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.17738970588235292) 52%, rgba(0, 0, 0, 0.5611432072829132) 100%);
+  border-color: white;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 13em;
 }
 
 .logo {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .sidebar {
   display: flex;
+  flex-grow: 999;
   flex-direction: column;
-  margin-top: 5rem;
+  margin-top: 2rem;
   font-size: 20px;
   font-weight: 800;
   color: var(--secondary-font);
   list-style: none;
-  gap: 36px;
 }
 
 .sidebar a:hover {
   color: var(--main-font);
   text-decoration: underline;
-  display:flex;
-  background-color: rgba(240, 248, 255, 0.217);
+  display: flex;
   font-size: 22px;
+}
+
+.sidebar>li {
+  display: flex;
+  padding: 1rem;
+}
+
+.sidebar>li:hover {
+  background-color: rgba(240, 248, 255, 0.217);
 }

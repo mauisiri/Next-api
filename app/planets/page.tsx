@@ -1,5 +1,6 @@
 import styles from '../../styles/Planets.module.css'
 
+
 const fetchPlanets = () => {
   return fetch('https://swapi.dev/api/planets')
     .then(res => res.json())
