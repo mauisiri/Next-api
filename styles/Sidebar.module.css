@@ -1,21 +1,33 @@
 .header {
-    border: 1px solid #ffffff;
-    border-radius: 4px;
-    padding: 4px;
-    margin-right: 30px;
-    width: 15rem;
+  margin-right: 30px;
+  width: 13rem;
+  height: 150%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8981967787114846) 0%, rgba(255, 255, 255, 0.10547969187675066) 100%);
+  position:absolute;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 .sidebar {
-    display: flex;
-    flex-direction: column; 
-    margin-top: 5rem;
-   
-    list-style: none;
-    gap: 36px;
-  }
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--secondary-font);
+  list-style: none;
+  gap: 36px;
+}
 
-  .sidebar a:hover {
-    color:#ffffff;
-    text-decoration: underline;
-  }
+.sidebar a:hover {
+  color: var(--main-font);
+  text-decoration: underline;
+  display:flex;
+  background-color: rgba(240, 248, 255, 0.217);
+  font-size: 22px;
+}
