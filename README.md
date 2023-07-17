@@ -1,9 +1,4 @@
-npm run dev
-
-no id data individually
-
-planets created in a different way
-
+# TECHNICAL TEST: Next.js 13 with TypeScript
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -13,29 +8,41 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000/](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Achievements
 
-To learn more about Next.js, take a look at the following resources:
+:white_check_mark: Create sidebar with different categories
+:white_check_mark: Display the content in the central
+window
+:white_check_mark: NextJS usage
+:white_check_mark: Responsive design (except menu)
+:white_check_mark: SCSS modules
+:white_check_mark: Adherence to best practices
+:white_check_mark: Creativity
+:white_check_mark: Good use of HTML
+:white_check_mark: Return a 404.
+:white_check_mark: Good SCSS practices
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Not achieved (yet)
 
-## Deploy on Vercel
+:wavy_dash: Fetch of single id using ${id}
+:x: Pagination
+:x: Testing using Jest with path coverage
+:x: Login page + backend with NodeJS.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Details
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+"Planets" fetch was created in a different way just to see the differences.
+I could bring all data from the API, but couldn't access to the individual data by clicking on the element because of "undefined" id.
+
+
+* Surprise: Go to http://localhost:3000/starships/undefined
+
+Thank you!
