@@ -1,4 +1,6 @@
 import React from 'react'
+import styles from '../../styles/ListOf.module.css'
+
 
 const fetchFilms = (id) => {
   return fetch(`https://swapi.dev/api/films/${id}`)
@@ -25,11 +27,11 @@ export default async function Films ({ params }) {
             <p> Edited: {results.edited}</p>
             <p> Url: {results.url}</p>
           </div>
-          <h2>:'-(</h2>
-
       </article>
     )
   }
+
+  
 
 
 

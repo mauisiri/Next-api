@@ -10,6 +10,10 @@
   font-size: 2rem;
 }
 
+.game_box {
+  display: flex;
+  flex-direction: row;
+}
 
 .article {
   margin-top: 5%;
@@ -38,7 +42,7 @@
   border: solid var(--light-bg);
 }
 
-.name {
+.name, .solution {
   letter-spacing: 1px;
   color:var(--dark-font);
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
@@ -47,7 +51,7 @@
   text-transform: uppercase;
 }
 
-.details {
+.details, .no_data_window {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,5 +70,22 @@
   flex-direction: column;
   justify-content: center;
   margin-top: -5px;
-  
+}
+
+.no_data {
+  display: flex;
+  height: 100%;
+  margin: 5rem;
+  color: var(--light-bg)
+}
+
+.no_data_window {
+  margin-top: 5rem;
+}
+
+.solution{
+  display: flex;
+  justify-content: center;
+  padding: 2.1rem;
+  background-color: rgba(0, 0, 0, 0.639);
 }
