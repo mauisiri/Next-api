@@ -1,4 +1,5 @@
-import styles from '../../styles/Planets.module.css'
+import styles from '../../styles/ListOf.module.css'
+import btn_styles from '../../styles/Button.module.css'
 import React from 'react'
 
 
@@ -13,7 +14,7 @@ export default async function PlanetsPage({ params }) {
     <section>
       {planets.results.slice(0,5).map(results => (
         <article key={results.id} className={styles.article}>
-          <h2 className={styles.title}>
+          <h2 className={styles.person_name}>
             <link href='/planets/[id]' as={`/planets/${results.id}`}></link>
             {results.name}
             </h2>
@@ -25,6 +26,9 @@ export default async function PlanetsPage({ params }) {
             <p> Terrain: {results.terrain}</p>
             <p> Surface water: {results.surface_water}</p>
             <p> Population: {results.population}</p>
+          </div>
+          <div className={btn_styles.more_info}>
+            <button className={btn_styles.button}> More info </button>
           </div>
           {/* <div className={styles.details}>
             <p> Residents:</p>

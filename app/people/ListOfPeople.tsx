@@ -1,4 +1,4 @@
-import styles from '../../styles/People.module.css'
+import styles from '../../styles/ListOf.module.css'
 import btn_styles from '../../styles/Button.module.css'
 import React from 'react'
 import Link from 'next/link'

@@ -34,5 +34,23 @@
 }
 
 .details {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  height: 300px;
+  border-radius: 7px;
+  color: var(--secondary-font);
+  background-color: var(--light-bg);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+}
+
+.details > p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -5px;
+  
 }
