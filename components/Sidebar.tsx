@@ -2,6 +2,7 @@ import Link from "next/link"
 import styles from '../styles/Sidebar.module.css'
 import Logo from '../public/logo.png'
 import Image from 'next/image'
+import React from 'react'
 
 
 const links = [{
@@ -11,8 +12,8 @@ const links = [{
     label: 'Planets',
     route: '/planets'
 }, {
-    label: 'Spaceships',
-    route: '/spaceships'
+    label: 'Starships',
+    route: '/starships'
 }, {
     label: 'Vehicles',
     route: '/vehicles'

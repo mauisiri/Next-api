@@ -1,3 +1,4 @@
+import styles from '../../styles/ListOf.module.css'
 import { ListOfPeople } from "./ListOfPeople"
 import React from 'react'
 
@@ -10,6 +11,8 @@ const fetchPeople = () => {
   
     return (
       <section>
+         <h1 className={styles.section
+      }>People</h1>
         <ListOfPeople />
       </section>
     )

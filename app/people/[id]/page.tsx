@@ -1,3 +1,5 @@
+import React from 'react'
+
 const fetchPerson = (id) => {
   return fetch(`https://swapi.dev/api/people/${id}`)
     .then(res => res.json())

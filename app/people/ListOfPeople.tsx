@@ -16,7 +16,7 @@ export async function ListOfPeople() {
       <Link href={`/people/${people.results.id}`}>
         <div className={styles.card}>
           <div className={styles.image}>IMAGE</div>
-          <h2 className={styles.person_name}>
+          <h2 className={styles.name}>
             <link href='/people/[id]' as={`/people/${results.id}`}></link>
             {results.name}
           </h2>
