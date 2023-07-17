@@ -35,6 +35,7 @@
   border-radius: 5px;
   color: rgba(255, 254, 240, 0.13);
   vertical-align: middle;
+  border: solid var(--light-bg);
 }
 
 .name {

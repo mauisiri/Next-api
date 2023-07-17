@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/globals.css'
 
-import { Sidebar } from "../components/Sidebar"
+import { Sidebar } from "./Sidebar"
 
 export default function RootLayout({ children }) {
   return (

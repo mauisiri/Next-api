@@ -1,3 +1,10 @@
+npm run dev
+
+no id data individually
+
+planets created in a different way
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

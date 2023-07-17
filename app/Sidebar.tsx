@@ -6,9 +6,6 @@ import React from 'react'
 
 
 const links = [{
-    label: 'Home',
-    route: '/'
-}, {
     label: 'Planets',
     route: '/planets'
 }, {
