@@ -15,26 +15,44 @@ Open [http://localhost:3000/](http://localhost:3000) with your browser to see th
 
 
 
+
+
+
 ## Achievements
 
 :white_check_mark: Create sidebar with different categories
+
 :white_check_mark: Display the content in the central
 window
+
 :white_check_mark: NextJS usage
+
 :white_check_mark: Responsive design (except menu)
+
 :white_check_mark: SCSS modules
+
 :white_check_mark: Adherence to best practices
+
 :white_check_mark: Creativity
+
 :white_check_mark: Good use of HTML
+
 :white_check_mark: Return a 404.
+
 :white_check_mark: Good SCSS practices
+
+
+
 
 
 ## Not achieved (yet)
 
 :wavy_dash: Fetch of single id using ${id}
-:x: Pagination
+
+:wavy_dash: Pagination
+
 :x: Testing using Jest with path coverage
+
 :x: Login page + backend with NodeJS.
 
 ## Details
