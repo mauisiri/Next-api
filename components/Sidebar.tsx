@@ -54,4 +54,3 @@ export function Sidebar() {
 }
 
 
-/* “Siempre hay un maestro y un aprendiz.” – Darth Bane */

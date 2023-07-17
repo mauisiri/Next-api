@@ -1,4 +1,5 @@
 import styles from '../../styles/Planets.module.css'
+import React from 'react'
 
 
 const fetchPlanets = () => {
@@ -19,7 +20,7 @@ export default async function PlanetsPage({ params }) {
           <div className={styles.details}>
             <p> Rotation period: {results.rotation_period}</p>
             <p> Diameter: {results.diameter}</p>
-            <p>Climate: {results.climate}</p>
+            <p> Climate: {results.climate}</p>
             <p> Gravity: {results.gravity}</p>
             <p> Terrain: {results.terrain}</p>
             <p> Surface water: {results.surface_water}</p>

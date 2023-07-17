@@ -1,4 +1,5 @@
 import { ListOfPeople } from "./ListOfPeople"
+import React from 'react'
 
 const fetchPeople = () => {
     return fetch('https://swapi.dev/api/people')
@@ -8,7 +9,6 @@ const fetchPeople = () => {
     const people = await fetchPeople()
   
     return (
-         
       <section>
         <ListOfPeople />
       </section>
